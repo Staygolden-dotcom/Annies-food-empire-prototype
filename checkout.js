@@ -581,7 +581,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (isMobile) {
           const tempLink = document.createElement("a");
-          tempLink.href = `whatsapp://send?phone=639198517845&text=${encodeURIComponent(
+          tempLink.href = `whatsapp://send?phone=2349014701004&text=${encodeURIComponent(
             orderMessage
           )}`;
           tempLink.target = "_blank";
@@ -591,14 +591,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
           setTimeout(() => {
             if (!document.hidden) {
-              window.location.href = `https://api.whatsapp.com/send?phone=639198517845&text=${encodeURIComponent(
+              window.location.href = `https://api.whatsapp.com/send?phone=2349014701004&text=${encodeURIComponent(
                 orderMessage
               )}`;
             }
           }, 1000);
         } else {
           window.open(
-            `https://web.whatsapp.com/send?phone=639198517845&text=${encodeURIComponent(
+            `https://web.whatsapp.com/send?phone=2349014701004&text=${encodeURIComponent(
               orderMessage
             )}`,
             "_blank"
@@ -931,3 +931,4 @@ document.addEventListener("DOMContentLoaded", function () {
   // Start the application
   init();
 });
+
